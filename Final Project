@@ -1,0 +1,86 @@
+#July 9th 2022
+#Intro to Python
+#Final Project: Interactive Mad Libs (3 prompts)
+#Professor Alon Friedman
+#Author: Rachel Livingston
+
+
+print("We are going to play a game of Mad Libs")
+print("To play this game, I will ask you for a type of word and once complete, a story will print")
+print("The three prompts to choose from are: ") 
+print("1. Tell me a story")
+print("2. Christmas Baking")
+print("3. Pizza Pizza")
+
+prompt= input("Which prompt would you like? (1,2, or 3)")
+
+if prompt=="1":
+    holiday1 = input("Please enter a holiday: ")
+    person = input("Please enter a person: ")
+    action = input("Please enter a action: ")
+    person1 = input("Please enter a person: ")
+    action1 = input("Please enter a action: ")
+    person2 = input("Please enter a person: ")
+    place1 = input("Please enter a place: ")
+    food1 = input("Please enter a food: ")
+    person3 = input("Please enter a person: ")
+    place2 = input("Please enter a place: ")
+    bug1 = input("Please enter a bug: ")
+    thing1 = input("Please enter a thing: ")
+    person4 = input("Please enter a person: ")
+    person5 = input("Please enter a person: ")
+    feeling1 = input("Please enter a feeling: ")
+    holiday2 = input("Please enter a holiday: ")
+    person6 = input("Please enter a person: ")
+
+
+
+elif prompt == "2":
+    noun1 = input("Please enter a noun: ")
+    verbing1 = input("Please enter a verb ending in ing: ")
+    adjective1 = input("Please enter an adjective: ")
+    person1 = input("Please enter a person: ")
+    verb1 = input("Please enter a verb: ")
+    ingredient1 = input("Please enter an ingredient: ")
+    noun2 = input("Please enter a noun: ")
+    noun3 = input("Please enter a noun: ")
+    noun4 = input("Please enter a noun: ")
+    noun5 = input("Please enter a noun: ")
+    noun6 = input("Please enter a noun: ")
+    verb2 = input("Please enter a verb: ")
+    noun7 = input("Please enter a noun: ")
+    number1 = input("Please enter a number: ")
+    number2 = input("Please enter a number: ")
+    noun8 = input("Please enter a noun: ")
+
+    print("Every year, we make ",noun1," at Christmas time. ",verbing1,"has been a tradition since I was a/an ",adjective1," kid! ")
+    print(person1," used to make most of the recipe back then, but I would always help ",verb1,ingredient1,".")
+    print(" Now that I am older, I make the entire batch of ",noun2," from scratch. ")
+    print("All you have to do is mix ",noun3," and ",noun4," in a bowl and then add ",noun5,".")
+    print(" Don't forget to add the ",noun6,"! ")
+    print(verb2," them on a ",noun7," and bake at ",number1,"degrees. ")
+    print("After ",number2,"minutes, you will have the perfect ",noun8,".")
+
+elif prompt == "3":
+    adjective1 = input("Please enter an adjective: ")
+    location = input("Please enter a location: ")
+    person1 = input("Please enter a person: ")
+    noun1 = input("Please enter a noun: ")
+    adjective2 = input("Please enter an adjective: ")
+    noun2 = input("Please enter a noun: ")
+    adjective3 = input("Please enter an adjective: ")
+    adjective4 = input("Please enter an adjective: ")
+    pluralnoun1 = input("Please enter a plural noun: ")
+    noun3 = input("Please enter a noun: ")
+    number1 = input("Please enter a number: ")
+    shape1 = input("Please enter a shape: ")
+    food1 = input("Please enter a food: ")
+    number2 = input("Please enter a number: ")
+
+    print("Pizza was invented in a/an ",adjective1, " ", location," by a chef named ", person1,".")
+    print(" To make pizza, you need to take a lump of ",noun1," and make a thin, round ",adjective2,", ",noun2,".")
+    print(" Then, you cover it with ",adjective3," sauce, ",adjective4," cheese, and a fresh chopped ",pluralnoun1,".")
+    print(" Next, you have to bake it in a very hot ",noun3," for ",number1," minutes. ")
+    print("Once complete, cut it into ",shape1," and serve the ",food1," pizza to the ",number2," people waiting for it. ")
+
+
